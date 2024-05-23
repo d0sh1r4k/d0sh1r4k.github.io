@@ -1,0 +1,44 @@
+.qNumber {
+    display: flex;
+}
+.qNumber button {
+    margin-right: 5px; /* Добавляем правый отступ между кнопками */
+
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.answers{
+    display: flex;
+    align-items: center;
+}
+.answers button {
+    font-size: 60%;
+    height: 40px;
+    width: 80px;
+    margin-right: 5px; /* Добавляем правый отступ между кнопками */
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span{
+    margin-bottom: 10px;
+}
+.answers button:hover{
+    background-color: slategray;
+    animation-duration: 50ms;
+    color:aliceblue;
+    
+}
+.qNumber button:hover{
+    background-color: slategray;
+    animation-duration: 50ms;
+    color:aliceblue;
+    
+}
+.active{
+    background-color: slategray;
+    color:aliceblue;
+}
